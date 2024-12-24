@@ -1,0 +1,99 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "Titulo 1",
+      "categoria": "Front end",
+      "imagen": "img/image1.png",
+      "videoRef": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+      "descripcion": "Descripcion 2"
+    },
+    {
+      "id": "2",
+      "titulo": "Titulo 1",
+      "categoria": "Front end",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image2.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "3",
+      "titulo": "Titulo 1",
+      "categoria": "Front end",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image3.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "4",
+      "titulo": "Titulo 1",
+      "categoria": "Back end",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image4.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "5",
+      "titulo": "Titulo 1",
+      "categoria": "Back end",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image5.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "6",
+      "titulo": "Titulo 1",
+      "categoria": "Back end",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image6.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "7",
+      "titulo": "Titulo 1",
+      "categoria": "Innovacion y gestion",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image7.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "8",
+      "titulo": "Titulo 1 ",
+      "categoria": "Innovacion y gestion",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image8.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    },
+    {
+      "id": "9",
+      "titulo": "Titulo 1 ",
+      "categoria": "Innovacion y gestion",
+      "descripcion": "Descripcion 1",
+      "imagen": "img/image9.png",
+      "video": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+    }
+  ],
+  "secciones": [
+    {
+      "id": "1",
+      "titulo": "Front end",
+      "capa": "bannerimg/bannerFE.png",
+      "imagen": "bannerimg/playerFE.png",
+      "color": "#6BD1FF"
+    },
+    {
+      "id": "2",
+      "titulo": "Back end",
+      "capa": "bannerimg/bannerFE.png",
+      "imagen": "img/image2.png",
+      "color": "#00C86F"
+    },
+    {
+      "id": "3",
+      "titulo": "Innovacion y gestion",
+      "capa": "bannerimg/bannerFE.png",
+      "imagen": "img/image3.png",
+      "color": "#FFBA05"
+    }
+  ]
+}

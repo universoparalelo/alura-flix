@@ -1,0 +1,25 @@
+label{
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 1.5rem
+}
+
+.input-estilos{
+    width: 100%;
+}
+
+.input-estilos div{
+    color: white !important;
+    font-size: 1rem;
+}
+
+
+.input-estilos svg{
+    color: white;
+    font-size: 1.5rem;
+}
+
+ul{
+    color: #fff;
+    background-color: #03122F;
+}
