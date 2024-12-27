@@ -7,9 +7,9 @@ const Seccion = ({ nombre, color }) => {
     const {videosDB} = useContext(GlobalContext);
     const videosFiltrados = videosDB.filter(video => video.categoria.toLowerCase() === nombre.toLowerCase());
 
-    return ( <section>
+    return ( <section className="md:text-center lg:text-left">
         <Boton texto={nombre} color={color} />
-        <article className="flex no-wrap overflow-x-auto gap-4 p-4">
+        <article className="flex no-wrap overflow-x-auto gap-4 p-4 scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-blue-900 scrollbar-rounded">
             {videosFiltrados.map(video => (
                 <Card 
                     key={video.id} 

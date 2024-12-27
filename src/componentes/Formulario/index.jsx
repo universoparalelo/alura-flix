@@ -75,7 +75,7 @@ const Formulario = ({tituloForm}) => {
 
     return (
         <>
-        <form className='flex flex-col gap-8 my-4 w-[70%] mx-auto text-white'
+        <form className='flex flex-col gap-6 my-4 w-[90%] mx-auto text-white'
             onSubmit={(e)=> {
                 e.preventDefault();
 
@@ -90,7 +90,7 @@ const Formulario = ({tituloForm}) => {
                     crearVideo(video);
                 }
         }}>
-            <h1 className='text-[3rem] font-bold text-[#2271D1]'>{tituloForm}</h1>
+            <h1 className='text-[2rem] font-bold text-[#2271D1]'>{tituloForm}</h1>
             <div>
                 <label>Titulo:</label>
                 <TextField 
@@ -179,7 +179,7 @@ const Formulario = ({tituloForm}) => {
                     required
                 />
             </div>
-            <div className='flex justify-between'>
+            <div className='flex flex-col justify-evenly gap-4 w-[70%] mx-auto md:flex-row md:w-full'>
                 <BotonForm tipo="submit">GUARDAR</BotonForm>
                 <BotonForm tipo="button" funcion={limpiarFormulario}>LIMPIAR</BotonForm>
             </div>

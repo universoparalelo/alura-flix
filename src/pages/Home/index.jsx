@@ -8,7 +8,6 @@ const Home = () => {
 
     return (
         <>
-            <Banner />
             <div className="flex flex-col gap-6">
                 {secciones.map(seccion =>
                     <Seccion key={seccion.id} nombre={seccion.titulo} color={seccion.color} />

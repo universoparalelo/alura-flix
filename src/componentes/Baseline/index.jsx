@@ -4,18 +4,21 @@ import Footer from "../Footer";
 import Header from "../Header";
 import GlobalProvider from "../../context";
 import Modal from "../Modal";
+import Banner from "../Banner";
 
 const Baseline = () => {
     return (
         <>
+        <GlobalProvider>
             <Header />
+            <Banner />
+
             <Container>
-                <GlobalProvider>
                     <Outlet />
                     <Modal />
-                </GlobalProvider>
             </Container>
             <Footer />
+        </GlobalProvider>
         </>
     )
 }
